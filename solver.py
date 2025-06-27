@@ -1,6 +1,6 @@
-int=input("enter a: ")
-int=input("enter b: ")
-a+b=c
-a-b=d
-print(c)
-print(d)
+a= int(input("enter a: "))
+b= int(input("enter b: "))
+c= a+b
+d= a-b
+print("sum:", c)
+print("dif:", d)
